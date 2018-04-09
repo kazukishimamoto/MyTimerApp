@@ -9,6 +9,14 @@
 import UIKit
 
 class SettingViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        <#code#>
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        <#code#>
+    }
+    
 
     // UIPickerViewに表示するデータをArrayで作成
     let settingArray : [Int] = [10, 20, 30, 40, 50, 60]
